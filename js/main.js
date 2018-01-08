@@ -38,9 +38,9 @@ let organ = prompt('What is the name of a body organ (e.g. heart, liver, spleen,
 
 let bodyPart1 = prompt('What is the name of a body part?');
 
-let bodyPart2 = prompt('What is the name of a body part?');
+let bodyPart2 = prompt('What is the name of another body part?');
 
-let bodyPart3 = prompt('What is the name of a body part?');
+let bodyPart3 = prompt('What is the name of a yet another body part?');
 
 let thing = prompt('What is an object?');
 
