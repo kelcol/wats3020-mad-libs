@@ -35,7 +35,7 @@ let color = prompt('What is the name of a color?');
 let familyMember = prompt('What is the name of a family relationship (e.g. sister, father, etc.)?');
 
 let organ = prompt('What is the name of a body organ (e.g. heart, liver, spleen, etc.)?');
-
+c
 let bodyPart1 = prompt('What is the name of a body part?');
 
 let bodyPart2 = prompt('What is the name of another body part?');
@@ -50,7 +50,7 @@ let thing3 = prompt('What is an object you might give somebody you like?');
 
 let adjective4 = prompt('What is a word used to describe the vehicle?');
 
-let adjective5 = prompt('What is a word used to describe the vehicle?');
+let adjective5 = prompt('What is another word used to describe the vehicle?');
 
 
 ////////////////////////////////////////////////////////////////////////
