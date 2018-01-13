@@ -40,10 +40,15 @@ In order to successfully complete this exercise, you must complete the following
 requirements:
 
 [X] Write all of the variable declarations listed in `js/main.js`
+
 [X] Properly use the `prompt()` command and write sensible text for the user to read.
+
 [X] Use at least two different arithmetic operators to generate the section numbers.
+
 [ ] Update all of the comments in `js/main.js` so that they make sense to a developer coming to your code for the first time.
+
 [X] Push your source code to your `master` branch.
+
 [ ] Deploy your site by creating a `gh-pages` branch and pushing your code to that branch, too.
 
 ## Stretch Goals
@@ -51,7 +56,12 @@ requirements:
 If you want to push this project further, you can try some of the following:
 
 [ ] Enhance the styling of the page.
+
 [ ] Change the markup surrounding the output poem to facilitate more interesting stuff.
+
 [ ] See how far you can push things with making up new words based on what the user submitted.
+
 [ ] Use conditionals to alter some presentation or content based on the information the user has submitted.
-[ ] Convert the use of `prompt()` into using a proper webform (this will require you to use many more of the `document` and element manipulation methods). (NOTE: This is a serious stretch. You will need to use the `onsubmit` attribute of a `<form>` tag, or you will need to set up an event handler. And you will need to move your madlibs code into a JavaScript function.)
+
+[ ] Convert the use of `prompt()` into using a proper webform (this will require you to use many more of the `document`
+	 and element manipulation methods). (NOTE: This is a serious stretch. You will need to use the `onsubmit` attribute of a `<form>` tag, or you will need to set up an event handler. And you will need to move your madlibs code into a JavaScript function.)
