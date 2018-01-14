@@ -55,7 +55,7 @@ requirements:
 
 If you want to push this project further, you can try some of the following:
 
-[ ] Enhance the styling of the page.
+[X] Enhance the styling of the page.
 
 [ ] Change the markup surrounding the output poem to facilitate more interesting stuff.
 
