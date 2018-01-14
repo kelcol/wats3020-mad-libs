@@ -63,7 +63,7 @@ let adjective5 = prompt('What is another word used to describe the vehicle?');
 let userNumber = prompt('What is your favorite non-zero number?');
 
 let number2 = userNumber + 11;
-let number3 = ( number2 / 8.5 ) * number2**6;
+let number3 = number2**6 - userNumber/8;
 
 
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
