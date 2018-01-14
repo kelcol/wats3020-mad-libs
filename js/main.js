@@ -35,7 +35,7 @@ let color = prompt('What is the name of a color?');
 let familyMember = prompt('What is the name of a family relationship (e.g. sister, father, etc.)?');
 
 let organ = prompt('What is the name of a body organ (e.g. heart, liver, spleen, etc.)?');
-c
+
 let bodyPart1 = prompt('What is the name of a body part?');
 
 let bodyPart2 = prompt('What is the name of another body part?');
@@ -59,9 +59,13 @@ let adjective5 = prompt('What is another word used to describe the vehicle?');
 // The poem we are using has section numbers. Let's allow the user to
 // generate their own.
 //
-let userNumber = prompt("What's your favorite non-zero number?")
-let number2 = userNumber + 7
-let number3 = (userNumber * 2) / number2
+
+let userNumber = prompt('What is your favorite non-zero number?');
+
+let number2 = userNumber + 11;
+let number3 = ( number2 / 8.5 ) * number2**6;
+
+
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
 //
 // The code below his line handles variable replacement into the HTML file.
@@ -72,7 +76,6 @@ let titleHeading = document.querySelector("#madlib-title");
 titleHeading.innerHTML = titleText;
 
 let storyText = `
-
     ${userNumber}
     O ${honorific}! my ${honorific}! our ${adjective1} trip is done;
     The ${vehicle} has weather'd every rack, the ${precious} we sought is won;
@@ -82,7 +85,6 @@ let storyText = `
     O the bleeding drops of ${color},
     Where on the ${vehiclePart} my ${honorific} lies,
     Fallen ${adjective2} and ${adjective3}.
-
     ${number2}
     O ${honorific}! my ${honorific}! rise up and hear the ${noiseMaker};
     Rise up-for you the ${thing} is flung-for you the bugle trills;
@@ -92,7 +94,6 @@ let storyText = `
     This ${bodyPart2} beneath your ${bodyPart3};
     It is some dream that on the ${vehiclePart},
     You've fallen ${adjective2} and ${adjective3}.
-
     ${number3}
     My ${honorific} does not answer, his lips are pale and still;
     My ${familyMember} does not feel my arm, he has no pulse nor will;
