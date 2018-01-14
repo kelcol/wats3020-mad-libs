@@ -1,6 +1,57 @@
-/* WATS 3020 Mad Libs Assignment */
 
 body {
     padding: 1rem;
+    background-color: #94817B;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 4.5rem;
+    color: #1A281B;
+}
+
+pre {
+  margin: 0 5rem 3rem 5rem;
+  padding: 3rem;
+  font-size: 1.25em;
+  border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+  background-color: #A4A6A3;
+	color: #2E372D;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+	color: #222625;
+}
+
+/* HR styling lifted from here: https://css-tricks.com/examples/hrs/ */
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    }
+
+a {
+  color: #1A281B;
+}
+
+a:hover {
+    color: #2E372D;
 }
