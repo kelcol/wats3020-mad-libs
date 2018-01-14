@@ -8,7 +8,16 @@
 // generate the story.
 //
 //
-let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel).');
+let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel).').toLowerCase();
+if (honorific === 'princess') {
+    alert('Whoa! I am a princess too!');
+}
+else if (honorific === 'general') {
+    alert('Whoa! My mom is a general!');
+}
+else if (honorific === 'sir') {
+    alert('Nice to meet you, sir!');
+};
 
 let authorName = prompt('What is your full name?');
 
@@ -58,12 +67,17 @@ let adjective5 = prompt('What is another word used to describe the vehicle?');
 //
 // The poem we are using has section numbers. Let's allow the user to
 // generate their own.
-//
 
-let userNumber = prompt('What is your favorite non-zero number?');
+// This do while statement checks if input is a non-number outside the range of 1 to 100 and continues prompting until conditions are met Ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while
+// variable has to be created with var since let variables are not assigned as properties to the global window object and are unavailable to the while loop
+// Double pipes are used here as a logical operator meaning "or" in the conditional statement
+
+do {
+	var userNumber = parseInt(prompt("Please enter a number from 1 to 100"));
+} while (isNaN(userNumber) || userNumber > 100 || userNumber < 1);
 
 let number2 = userNumber + 11;
-let number3 = number2**6 - userNumber/8;
+let number3 = number2 + userNumber/8 % 3;
 
 
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
